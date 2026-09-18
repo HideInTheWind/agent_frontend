@@ -3,7 +3,7 @@ import type { RouteObject } from "react-router-dom";
 import AuthGuard from "./AuthGuard";
 import BasicLayout from "@/layouts/BasicLayout";
 // import BlankLayout from "@/layouts/BlankLayout";
-import { Dashboard, ChatWindow } from "./lazyPages";
+import { ChatWindow } from "./lazyPages";
 import { ROUTES } from "@/constants";
 
 export const routes: RouteObject[] = [
@@ -22,7 +22,6 @@ export const routes: RouteObject[] = [
           // { index: true, element: <Dashboard /> },
           // { path: ROUTES.CHAT_WINDOW, element: <ChatWindow /> },
           { index: true, element: <ChatWindow /> },
-          // { path: ROUTES.CHAT_WINDOW, element: <ChatWindow /> },
         ],
       },
     ],
