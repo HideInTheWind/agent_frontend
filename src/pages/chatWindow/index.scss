@@ -8,6 +8,9 @@ $spacing-base: 12px;
 $max-bubble-width: 70%;
 
 .chat-window {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   height: 100%;

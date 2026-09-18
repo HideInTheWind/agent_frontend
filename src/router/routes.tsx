@@ -19,8 +19,10 @@ export const routes: RouteObject[] = [
       {
         element: <BasicLayout />,
         children: [
-          { index: true, element: <Dashboard /> },
-          { path: ROUTES.CHAT_WINDOW, element: <ChatWindow /> },
+          // { index: true, element: <Dashboard /> },
+          // { path: ROUTES.CHAT_WINDOW, element: <ChatWindow /> },
+          { index: true, element: <ChatWindow /> },
+          // { path: ROUTES.CHAT_WINDOW, element: <ChatWindow /> },
         ],
       },
     ],

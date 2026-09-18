@@ -15,6 +15,10 @@
       min-height: 0;
       overflow: hidden; // 高度传给子页面，滚动下沉
     }
+    .withoutDashboard {
+      height: 100%;
+      min-height: 0;
+    }
   }
 
   .contentScroll {

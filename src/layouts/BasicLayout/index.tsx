@@ -18,7 +18,11 @@ const BasicLayout: React.FC = () => {
       <Content
         className={`${styles.content}${isDashboard ? ` ${styles.contentScroll}` : ""}`}
       >
-        <div className={!isDashboard ? styles.pageBodyFill : undefined}>
+        <div
+          className={
+            !isDashboard ? styles.pageBodyFill : styles.withoutDashboard
+          }
+        >
           <Outlet />
         </div>
       </Content>
