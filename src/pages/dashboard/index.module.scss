@@ -1,0 +1,44 @@
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.formItem {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.progressSection {
+  margin-top: 16px;
+}
+
+.steps {
+  margin-top: 12px;
+}
+
+.alert {
+  margin-top: 12px;
+}
+
+.card {
+  margin-top: 16px;
+}
+
+.reason {
+  color: var(--ant-color-text-secondary);
+  font-size: 14px;
+}
+
+.reportTitle {
+  margin: 0;
+}
+
+.sectionTitle {
+  margin: 0;
+}

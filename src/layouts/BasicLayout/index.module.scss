@@ -1,0 +1,27 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+
+  .content {
+    flex: 1;
+    min-height: 0; // 允许收缩，产生确定高度
+    overflow: hidden; // 默认：不在 layout 滚
+    padding: 24px;
+    box-sizing: border-box;
+    .pageBodyFill {
+      height: 100%;
+      min-height: 0;
+      overflow: hidden; // 高度传给子页面，滚动下沉
+    }
+  }
+
+  .contentScroll {
+    overflow-y: auto; // 仅 Dashboard
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+}
